@@ -50,6 +50,7 @@ Predictive maintenance reduces unscheduled downtimes, cuts repair costs, enhance
 ---
 
 ## 📂 Folder Structure
+bash
 predictive_maintenance_project/
 │
 ├── data/
@@ -86,7 +87,6 @@ predictive_maintenance_project/
 │
 ├── README.md                        # Project overview + how to run
 ├── requirements.txt                 # All required Python libraries
-
 
 
 
