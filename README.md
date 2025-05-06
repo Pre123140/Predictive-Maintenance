@@ -129,7 +129,7 @@ python src/visualize_results.py
 ---
 
 ## 📘 Conceptual Study
-👉 [Click here to read the full conceptual study](./conceptual_study_predictive_maintenance.pdf)
+👉 [Click here to read the full conceptual study](https://github.com/Pre123140/Predictive-Maintenance/blob/main/PREDICTIVE%20MAINTENANCE.pdf)
 
 Includes:
 - ML Theory for Predictive Maintenance
