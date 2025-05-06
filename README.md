@@ -1,29 +1,29 @@
-# 🔧 AI-Powered Predictive Maintenance for Manufacturing
+# AI-Powered Predictive Maintenance for Manufacturing
 
-## 📌 Overview
+##  Overview
 This project leverages machine learning and anomaly detection to forecast machine failures using real-world manufacturing sensor data. By combining supervised classification and unsupervised anomaly detection, it enables smarter maintenance planning and minimizes unexpected downtimes.
 
 ---
 
-## 🎯 Objective
+## Objective
 - Predict machine failure using operational features like torque, tool wear, and temperature.
 - Detect anomalies using Isolation Forest.
 - Visualize patterns to guide data-informed maintenance decisions.
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 Predictive maintenance reduces unplanned downtimes, prevents costly repairs, improves workplace safety, and supports proactive monitoring across production environments.
 
 ---
 
-## 🧠 Algorithms Used
+## Algorithms Used
 - **Random Forest Classifier** – For machine failure prediction
 - **Isolation Forest** – For unsupervised anomaly detection
 
 ---
 
-## 🧪 Dataset
+## Dataset
 - **Source**: `predictive_maintenance.csv`
 - **Key Features**:
   - Machine Type, Air Temperature [K], Process Temperature [K], Rotational Speed [rpm], Torque [Nm], Tool Wear [min]
@@ -32,7 +32,7 @@ Predictive maintenance reduces unplanned downtimes, prevents costly repairs, imp
 
 ---
 
-## 🔄 Project Flow
+## Project Flow
 1. **Preprocessing** – Cleaned raw data, removed noise, and encoded features
 2. **Training** – Random Forest Classifier trained on core operational variables
 3. **Anomaly Detection** – Isolation Forest used to flag unusual conditions
@@ -41,7 +41,7 @@ Predictive maintenance reduces unplanned downtimes, prevents costly repairs, imp
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 ```
 predictive_maintenance_project/
 ├── data/
@@ -72,7 +72,7 @@ predictive_maintenance_project/
 
 ---
 
-## 📊 Visual Outputs
+## Visual Outputs
 1. **Anomaly Detection (Torque vs RPM)** – Scatterplot with outliers highlighted
 2. **Feature Importance** – Top predictors of machine failure
 3. **Failure Mode Distribution** – Anomaly count by failure type
@@ -84,7 +84,7 @@ predictive_maintenance_project/
 
 ---
 
-## 🛠 Requirements
+## Requirements
 ```text
 pandas
 numpy
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 ### 1. Install Dependencies
 ```bash
@@ -128,7 +128,7 @@ python src/visualize_results.py
 
 ---
 
-## 📘 Conceptual Study
+## Conceptual Study
 👉 [Click here to read the full conceptual study](https://github.com/Pre123140/Predictive-Maintenance/blob/main/PREDICTIVE%20MAINTENANCE.pdf)
 
 Includes:
@@ -138,11 +138,11 @@ Includes:
 - Deployment Strategy
 
 ---
-## 📜 License
+## License
 
 This project is open for educational use only. For commercial deployment, contact the author.
 
 ---
 
-## 📬 Contact
+## Contact
 If you'd like to learn more or collaborate on projects or other initiatives, feel free to connect on [LinkedIn](https://www.linkedin.com/in/prerna-burande-99678a1bb/) or check out my [portfolio site](https://youtheleader.com/).
